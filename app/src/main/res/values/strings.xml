@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Android1</string>
+    <string name="mass_kg">Mass [kg]:</string>
+    <string name="mass_lb">Mass [lb]</string>
+    <string name="count_bmi">Count BMI</string>
+    <string name="back">Back</string>
+    <string name="empty_value">0.00</string>
+    <string name="height_is_empty">Please provide height value.</string>
+    <string name="mass_is_empty">Please provide mass value.</string>
+    <string name="height_value_bad">Please provide proper data.</string>
+    <string name="mass_value_bad">Please provide proper data.</string>
+    <string name="height_cm">Height [cm]:</string>
+    <string name="height_in">Height [in]:</string>
+    <string name="title_activity_b_m_i__info">BMI_Info</string>
+
+    <string name="underweight3">Very severely underweight</string>
+    <string name="underweight2">Severely underweight</string>
+    <string name="underweight1">Underweight</string>
+    <string name="normal">Normal (healthy weight)</string>
+    <string name="overweight">Overweight</string>
+    <string name="obese1">Obese Class I (Moderately obese)</string>
+    <string name="obese2">Obese Class II (Severely obese)</string>
+    <string name="obese3">Obese Class III (Very severely obese)</string>
+    <string name="description">"The desired BMI depends on age and is accordingly:\n
+        19 - 24 years: 19 - 24\n
+        25 – 34 years: 20 – 25\n
+        35 – 44 years: 21 – 26\n
+        45 – 54 years: 22 – 27\n
+        55 – 64 years: 23 – 28\n
+        over 64 years: 24 – 29\n"</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="units_kg_cm">Units: kg/cm</string>
+    <string name="units_lb_in">Units: lb/in</string>
+    <string name="history">History</string>
+    <string name="element_text">test</string>
+    <string name="title_activity_history">History</string>
+</resources>
