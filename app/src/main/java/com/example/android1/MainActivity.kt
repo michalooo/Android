@@ -113,8 +113,8 @@ class MainActivity : AppCompatActivity() {
             when {
                 massET.text.isBlank() -> massET.error = getString(R.string.mass_is_empty)
                 heightET.text.isBlank() -> heightET.error = getString(R.string.height_is_empty)
-                massET.text.toString().toDouble() < 0 -> massET.error = getString(R.string.mass_value_bad)
-                heightET.text.toString().toDouble() < 0 -> heightET.error = getString(R.string.height_value_bad)
+                massET.text.toString().toDouble() <= 0 -> massET.error = getString(R.string.mass_value_bad)
+                heightET.text.toString().toDouble() <= 0 -> heightET.error = getString(R.string.height_value_bad)
                 else -> {
                     val mass: Double = massET.text.toString().toDouble()
                     val height: Double = heightET.text.toString().toDouble()
